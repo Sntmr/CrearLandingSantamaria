@@ -3,6 +3,10 @@ import Header from './components/Header';
 import ProductCard from './components/ProductCard';
 import CartModal from './components/CartModal';
 import { productsData } from './data/products';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import ItemListContainer from './containers/ItemListContainer';
+import ItemDetailContainer from './containers/ItemDetailContainer';
 import './App.css';
 
 /**
@@ -104,4 +108,3 @@ function App() {
 }
 
 export default App;
-
