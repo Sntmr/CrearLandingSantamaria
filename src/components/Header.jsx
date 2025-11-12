@@ -8,6 +8,7 @@ function Header({ totalItems, onCartClick }) {
     return (
         <header className="header">
             <div className="logo">🛒 TechStore</div>
+            <div>agua</div>
             <button 
                 className="cart-icon"
                 onClick={onCartClick}

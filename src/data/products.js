@@ -66,6 +66,27 @@ export const productsData = [
         description: "IPS, 144Hz, HDR, FreeSync",
         price: 599.99,
         image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400"
+    },
+    {
+        id: 10,
+        name: "Placa de Video GeForce",
+        description: "Placa de video MSi GeForce RTX 3060 12 GB GDDR6 VENTUS 2X OC",
+        price: 999.99,
+        image: "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_25080_Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_VENTUS_2X_OC_e61e0e62-grn.jpg"
+    },
+    {
+        id: 11,
+        name: "RAM 16 GB",
+        description: "RAM de 16GB Samsung",
+        price: 499.99,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTthX8tuzcv7Xn57gmmy5M0mWEVvVeNT4JJVA&s"
+    },
+    {
+        id: 12,
+        name: "Mouse Pad Gaming ",
+        description: "Mouse pad Sidcom doble costura lavable",
+        price: 19.99,
+        image: "https://acdn-us.mitiendanube.com/stores/003/456/888/products/base-800x800-celulares-c332e6a0a0b61278a417398912390150-480-0.jpg"
     }
 ];
 
