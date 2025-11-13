@@ -1,9 +1,9 @@
 import React from "react";
 
-function productlist() {
+function productretail() {
     return (
         <div>HomePage</div>
     )
 }
 
-export default productlist
+export default productretail
