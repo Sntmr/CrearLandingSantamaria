@@ -9,6 +9,7 @@ import CartModal from './components/CartModal';
 import { CartProvider } from './context/CartContext';
 import './App.css';
 
+import './utils/UploadProducts.js';
 function App() {
   return (
     <CartProvider>

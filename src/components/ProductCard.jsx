@@ -17,7 +17,9 @@ function ProductCard({ product, onAddToCart }) {
         Agregar al Carrito
       </button>
 
-      <Link to={`/item/${product.id}`} className="details-link">
+      <br/>
+
+      <Link to={`/item/${product.id}`} className="add-to-cart-btn ">
         Ver detalles
       </Link>
     </div>
