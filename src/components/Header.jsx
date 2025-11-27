@@ -1,27 +1,24 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { CartContext } from '../context/CartContext';
 
-/**
- * Componente Header
- * Muestra el logo de la tienda y el botón del carrito con badge de cantidad
- */
-function Header({ totalItems, onCartClick }) {
-    return (
-        <header className="header">
-            <div className="logo">🛒 TechStore</div>
-            <div>agua</div>
-            <button 
-                className="cart-icon"
-                onClick={onCartClick}
-                aria-label="Abrir carrito de compras"
-            >
-                Carrito
-                {totalItems > 0 && (
-                    <span className="cart-badge">{totalItems}</span>
-                )}
-            </button>
-        </header>
-    );
+function Header() {
+  const { totalItems, setIsCartOpen } = useContext(CartContext);
+
+  return (
+    <header className="header">
+      <div className="logo">🛍️ TechStore</div>
+      <button
+        className="cart-icon"
+        onClick={() => setIsCartOpen(true)}
+        aria-label="Abrir carrito de compras"
+      >
+        🛒
+        {totalItems > 0 && (
+          <span className="cart-badge">{totalItems}</span>
+        )}
+      </button>
+    </header>
+  );
 }
 
 export default Header;
-
